@@ -47,9 +47,32 @@ strong {
   }
 }
 
+.hero_img_container {
+  position: relative;
+  max-width: 100%;
+  border-radius: 0.5rem;
+}
+
 #hero_img {
   max-width: 100%;
   border-radius: 0.5rem;
+}
+
+#hero_img_top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  background-color: var(--clr-primary-cyan);
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+#hero_img_top:hover {
+  opacity: 0.4;
 }
 
 #title {
@@ -119,6 +142,15 @@ strong {
 }
 .attribution p {
   margin: 0;
+}
+
+a {
+  color: var(--clr-neutral-white);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--clr-primary-cyan);
 }
 
 /*# sourceMappingURL=main.css.map */
