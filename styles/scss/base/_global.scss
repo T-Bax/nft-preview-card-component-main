@@ -1,0 +1,21 @@
+body{
+     font-family: var(--ff-primary);
+     background-color: var(--clr-neutral-mainbg);
+     font-size: var(--fs-base);
+     font-weight: 300;
+     color: var(--clr-primary-softblue);
+     display: flex; 
+     justify-content: center; 
+     align-items: center; 
+     min-height: 100vh; 
+     margin: 0;
+     line-height: 1.5rem;
+     
+
+}
+
+strong{
+    color: var(--clr-neutral-white);
+    font-weight: inherit;
+}
+

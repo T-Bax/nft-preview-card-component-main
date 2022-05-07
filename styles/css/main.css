@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap");
+:root {
+  --clr-primary-softblue: hsl(215, 51%, 70%);
+  --clr-primary-cyan: hsl(178, 100%, 50%);
+  --clr-neutral-mainbg: hsl(217, 54%, 11%);
+  --clr-neutral-cardbg: hsl(216, 50%, 16%);
+  --clr-neutral-line: hsl(215, 32%, 27%);
+  --clr-neutral-white: hsl(0, 0%, 100%);
+  --fs-base: 16px;
+  --ff-primary: "Outfit", sans-serif;
+}
+
+body {
+  font-family: var(--ff-primary);
+  background-color: var(--clr-neutral-mainbg);
+  font-size: var(--fs-base);
+  font-weight: 300;
+  color: var(--clr-primary-softblue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  line-height: 1.5rem;
+}
+
+strong {
+  color: var(--clr-neutral-white);
+  font-weight: inherit;
+}
+
+.nft_card {
+  width: 327px;
+  min-width: 327px;
+  background-color: var(--clr-neutral-cardbg);
+  box-sizing: border-box;
+  padding: 24px;
+  border-radius: 1rem;
+}
+@media (min-width: 1440px) {
+  .nft_card {
+    width: 348px;
+    min-width: 348px;
+  }
+  .nft_card #summary {
+    font-size: 18px;
+  }
+}
+
+#hero_img {
+  max-width: 100%;
+  border-radius: 0.5rem;
+}
+
+#title {
+  color: var(--clr-neutral-white);
+  font-weight: 500;
+  font-size: 1.4em;
+}
+
+.split {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+#eth_total {
+  display: inline-block;
+  color: var(--clr-primary-cyan);
+  margin: 0;
+  font-weight: 500;
+}
+
+.timeleft {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+#timeleft_total {
+  display: inline-block;
+  margin: 0;
+}
+
+.footer {
+  border-top-style: solid;
+  display: flex;
+  border-width: thin;
+  border-color: var(--clr-neutral-line);
+  align-items: center;
+  justify-content: left;
+  padding-top: 1em;
+}
+
+.avatar_container {
+  display: flex;
+  width: 10%;
+  height: 100%;
+  margin-right: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+#avatar {
+  border-style: solid;
+  border-radius: 100%;
+  border-width: thin;
+  border-color: var(--clr-neutral-white);
+  display: inline-block;
+  object-fit: scale-down;
+  max-width: 100%;
+  max-height: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.attribution {
+  align-items: center;
+  display: inline-block;
+  width: 90%;
+}
+.attribution p {
+  margin: 0;
+}
+
+/*# sourceMappingURL=main.css.map */
